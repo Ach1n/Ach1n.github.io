@@ -182,7 +182,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-01-15 12:51:18 / 修改时间：18:15:07" itemprop="dateCreated datePublished" datetime="2021-01-15T12:51:18+08:00">2021-01-15</time>
+              <time title="创建时间：2021-01-15 12:51:18 / 修改时间：23:26:16" itemprop="dateCreated datePublished" datetime="2021-01-15T12:51:18+08:00">2021-01-15</time>
             </span>
 
           
@@ -198,119 +198,14 @@
       
           <p>&nbsp;&nbsp;欢迎来到我的博客，17年的时候开始搭建了第一个自己的独立博客，后来换电脑忘记备份，现在重新来一次，现在会记录开发智能家庭系统的经过。很多小伙伴应该也想过搭建一个自己的博客，网上也有一堆详细教程。我在此稍稍总结一下具体的搭建步骤，另外网上很少有修改博客源码的个性化教程，我就稍稍分享一下我的一些修改经验，更多的个性化操作需要你自己以后去摸索。本篇博客会详细讲一下，如何搭建一个属于自己的博客网站（奶妈级，保姆级）</p>
 <p>&nbsp; Welcome to my blog. I started to build my first independent blog in 17 years. Later, I changed my computer and forgot to back it up. Now I’ll do it again. Now I will record the process of developing smart home system. Many small partners should also want to build their own blog, and there are a lot of detailed tutorials on the Internet. I’d like to summarize the specific building steps here. In addition, there are few personalized tutorials to modify blog source code on the Internet. I’d like to share some of my modification experience. More personalized operations need to be explored by you in the future. This blog will explain in detail how to build a blog website of your own (nanny level, nanny level)</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="本次用的程序是-hexo"><a href="#本次用的程序是-hexo" class="headerlink" title="本次用的程序是 hexo"></a>本次用的程序是 hexo</h3><p>官网 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 官网有安装说明，不过是上古时期的，现在跟着官网安装会有些问题出现，不建议。如果你想顺利的安装，请继续往下看。</p>
-<h3 id="首先安装Node-js"><a href="#首先安装Node-js" class="headerlink" title="首先安装Node.js"></a>首先安装Node.js</h3><p>打开Node.js官网Node.js: <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Server</a>下载并安装</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114741.png" class title="点击红色圈内的绿色按钮下载">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114749.png" class title="默认next下一步">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114754.png" class title="默认next下一步">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114800.png" class title="选安装位置">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114813.png" class title="确定Add to PATH没打叉">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114818.png" class title="默认next下一步">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114822.png" class title="默认Install安装">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114826.png" class title="安装中">
-
-<h3 id="再安装Git"><a href="#再安装Git" class="headerlink" title="再安装Git"></a>再安装Git</h3><p>打开Git官网: <a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git</a>下载并安装<br>没有什么重点知识，看图跟着做就好。</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114212.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114219.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114234.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114254.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114257.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114307.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114312.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114317.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114321.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114325.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114328.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114332.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114336.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114339.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114343.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114350.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115114404.png" class>
-
-
-
-
-<h3 id="以上完成电脑需要的组件安装，现在开始来安装hexo"><a href="#以上完成电脑需要的组件安装，现在开始来安装hexo" class="headerlink" title="以上完成电脑需要的组件安装，现在开始来安装hexo"></a>以上完成电脑需要的组件安装，现在开始来安装hexo</h3><p>找一个你喜欢的地方新建一个文件夹，这个文件夹就是你博客的所有文件存放的地方，我这里在D盘新建了一个名字为blog的文件夹。然后打开这个文件夹，右键选择 Git Bash Here</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115120702.png" class>
-
-<p>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-<p>初始化文件夹 </p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115120747.png" class>
-
-<p>接着输入 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>来安装必备的组件</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115120813.png" class>
-
-<p>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-<p>生成静态网页</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115120914.png" class>
-
-<p>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>打开本地服务器（可以简写成hexo s）</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115120948.png" class>
-
-<p>根据提示打开浏览器 输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1:4000</span><br></pre></td></tr></table></figure>
-<p>回车查看效果</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121111.png" class>
-
-<h3 id="以上完成hexo的本地搭建，可以正常在本地访问，如果你想部署到云端，让其他的人也可以看到请继续往下看。"><a href="#以上完成hexo的本地搭建，可以正常在本地访问，如果你想部署到云端，让其他的人也可以看到请继续往下看。" class="headerlink" title="以上完成hexo的本地搭建，可以正常在本地访问，如果你想部署到云端，让其他的人也可以看到请继续往下看。"></a>以上完成hexo的本地搭建，可以正常在本地访问，如果你想部署到云端，让其他的人也可以看到请继续往下看。</h3><p>准备注册一个<a target="_blank" rel="noopener" href="https://github.com/">Github</a>账号</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121336.png" class title="红色框内输入自己的邮箱点击旁边绿色按钮注册">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121427.png" class title="填写用户名和密码">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121510.png" class title="登陆进来左上角点击NEW">
-<p>按照格式对照着填写，yourname.github.io yourname替换成你自己喜欢的 记住就行</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121757.png" class title="打开setings">
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121831.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121844.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121901.png" class>
-<p>打开你刚刚设置的 yourname.github.io 查看一下效果</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115121949.png" class>
-<h3 id="以上完成Github的注册和新建仓库，下面介绍如何把本地代码部署到仓库"><a href="#以上完成Github的注册和新建仓库，下面介绍如何把本地代码部署到仓库" class="headerlink" title="以上完成Github的注册和新建仓库，下面介绍如何把本地代码部署到仓库"></a>以上完成Github的注册和新建仓库，下面介绍如何把本地代码部署到仓库</h3><p>在配置文件夹目录右键Git Bash Here<br>分别输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;achen&quot;</span><br><span class="line">git config --global user.email &quot;6666@qq.com&quot;</span><br></pre></td></tr></table></figure>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122131.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122206.png" class>
-<p>用户名和邮箱根据你注册github的信息自行修改。<br>出现下面的界面一直回车</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122518.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122626.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122637.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122649.png" class>
-<p>接着输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122829.png" class>
-<p>输入 yes</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115122842.png" class>
-<p>打开博客根目录下的_config.yml文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。</p>
-<p>修改最后一行的配置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;godweiyang&#x2F;godweiyang.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>repository修改为你自己的github项目地址。</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123029.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123146.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123205.png" class>
-
-<h3 id="本地推送云端"><a href="#本地推送云端" class="headerlink" title="本地推送云端"></a>本地推送云端</h3><p>首先在博客根目录下右键打开git bash，安装一个扩展</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-deployer-git</span><br></pre></td></tr></table></figure>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123509.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123531.png" class>
-<p>现在把现有的内容推到Github上试试<br>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>提示让登陆Github账户，点击红框内的浏览器登陆 按照下图步骤登陆即可。</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123621.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123638.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123717.png" class>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115123723.png" class>
-
-<p>登陆之后正常推送成功，打开Github仓库setings往下拉找到这一行，改成master 点save</p>
-<img src="/2021/01/15/top1/QQ%E6%88%AA%E5%9B%BE20210115124751.png" class>
-
-<p>打开 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yourname.github.io </span><br></pre></td></tr></table></figure>
-<p>查看效果，发现已经把本地的内容推送到云端查看。</p>
-<h3 id="以上就是本篇日志全部内容，喜欢的小伙伴记得关注。"><a href="#以上就是本篇日志全部内容，喜欢的小伙伴记得关注。" class="headerlink" title="以上就是本篇日志全部内容，喜欢的小伙伴记得关注。"></a>以上就是本篇日志全部内容，喜欢的小伙伴记得关注。</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/15/top1/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
